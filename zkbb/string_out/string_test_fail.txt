@@ -1,0 +1,13 @@
+No files changed, compilation skipped
+
+Running 2 tests for test/Counter.t.sol:CounterTest
+[31m[FAIL. Reason: Assertion failed.][0m testIncrement() (gas: 22660)
+[31m[FAIL. Reason: Assertion failed. Counterexample: calldata=0x70f985be0000000000000000000000000000000000000000000000000000000000000001, args=[1]][0m testSetNumber(uint256) (runs: 1, μ: 8308, ~: 8308)
+Test result: [31mFAILED[0m. 0 passed; 2 failed; finished in 10.63ms
+
+Failing tests:
+Encountered 2 failing tests in test/Counter.t.sol:CounterTest
+[31m[FAIL. Reason: Assertion failed.][0m testIncrement() (gas: 22660)
+[31m[FAIL. Reason: Assertion failed. Counterexample: calldata=0x70f985be0000000000000000000000000000000000000000000000000000000000000001, args=[1]][0m testSetNumber(uint256) (runs: 1, μ: 8308, ~: 8308)
+
+Encountered a total of [31m2[0m failing tests, [32m0[0m tests succeeded
